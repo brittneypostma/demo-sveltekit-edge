@@ -1,7 +1,7 @@
 import type { PageServerLoad } from './$types';
-export const load: PageServerLoad = async (event, context) => {
-	console.log(event, context);
+export const load: PageServerLoad = async (event) => {
+	console.log(event);
 	return {
-		res: event.getClientAddress()
+		res: event.platform
 	};
 };
