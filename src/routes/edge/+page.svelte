@@ -3,4 +3,4 @@
 	export let data: PageData;
 </script>
 
-{data}
+<pre>{data.res}</pre>
