@@ -1,7 +1,7 @@
 import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async (event) => {
-	console.log(event.platform);
+	console.log(event.platform.context);
 	return {
-		res: event.platform
+		res: event.platform.context
 	};
 };
