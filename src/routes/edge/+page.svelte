@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	export let data: PageData;
+	console.log(data);
 </script>
 
-<pre>{data}</pre>
+<h1>Edge</h1>
