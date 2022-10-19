@@ -4,4 +4,3 @@
 </script>
 
 <h1>Edge</h1>
-{data}
