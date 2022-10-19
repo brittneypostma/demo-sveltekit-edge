@@ -4,3 +4,4 @@
 </script>
 
 <h1>Edge</h1>
+{JSON.stringify(data)}
