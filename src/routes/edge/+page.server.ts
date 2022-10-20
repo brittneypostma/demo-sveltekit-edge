@@ -1,7 +1,7 @@
 import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async (event) => {
 	return {
-		edge: event.platform
+		edge: event.platform.context.geo.city
 	};
 };
 // 5:32:48 AM: [render] {
