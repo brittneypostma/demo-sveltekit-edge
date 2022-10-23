@@ -5,6 +5,7 @@ export const load: PageServerLoad = async (event) => {
 		edge: event.platform.context.geo.city
 	};
 };
+
 // 5:32:48 AM: [render] {
 //   context: {
 //     cookies: {

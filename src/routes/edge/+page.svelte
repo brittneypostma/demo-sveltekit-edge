@@ -3,5 +3,4 @@
 	export let data: PageData;
 </script>
 
-<h1>Edge</h1>
-{JSON.stringify(data.edge)}
+<h1>Hello from {data.edge}</h1>
