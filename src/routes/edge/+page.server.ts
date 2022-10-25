@@ -18,7 +18,7 @@ export const load: PageServerLoad = async (event) => {
 //       country: { code: "US", name: "United States" },
 //       subdivision: { code: "MI", name: "Michigan" }
 //     },
-//     ip: "2600:6c4a:747f:a7c4:507c:6160:872d:7f77",
+//     ip: "",
 //     json: [Function: bound json],
 //     log: [Function],
 //     next: [Function: next],
@@ -29,6 +29,6 @@ export const load: PageServerLoad = async (event) => {
 //       name: "demo-sveltekit-edge",
 //       url: "http://demo-sveltekit-edge.netlify.app"
 //     },
-//     account: { id: "5d260577f54c73a4f797c5e1" }
+//     account: { id: "" }
 //   }
 // }
